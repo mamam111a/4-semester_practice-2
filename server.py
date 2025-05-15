@@ -110,7 +110,7 @@ def handle_client(conn):
     conn.close()
 
 def server():
-    HOST = '127.0.0.1'
+    HOST = '172.17.4.33'
     PORT = 5500
 
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:

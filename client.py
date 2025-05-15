@@ -1,8 +1,8 @@
 import socket
 
 def client() -> None:
-    HOST = '127.0.0.1'  
-    PORT = 5500         
+    HOST = '217.71.129.139'  
+    PORT = 4895        
 
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     client_socket.connect((HOST, PORT))  
